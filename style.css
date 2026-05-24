@@ -172,7 +172,7 @@ button .ripple {
     padding: 1rem 1.35rem;
     border-radius: 999px;
     background: rgba(99, 102, 241, 0.14);
-    color: #e2e8f0;
+    color: var(--text);
     border: 1px solid rgba(99, 102, 241, 0.22);
     opacity: 0;
     transform: translateY(12px);
