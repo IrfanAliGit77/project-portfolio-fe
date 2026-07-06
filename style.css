@@ -913,13 +913,13 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 
 
 /* 13 */
-#clickMe {
+.btn-13 {
   background-color: #89d8d3;
 background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
   border: none;
   z-index: 1;
 }
-#clickMe:after {
+.btn-13:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -937,14 +937,14 @@ background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
-#clickMe:hover {
+.btn-13:hover {
   color: #fff;
 }
-#clickMe:hover:after {
+.btn-13:hover:after {
   top: 0;
   height: 100%;
 }
-#clickMe:active {
+.btn-13:active {
   top: 2px;
 }
 
